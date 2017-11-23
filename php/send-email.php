@@ -1,7 +1,7 @@
-<?php	
+<?php
 	// Your Email
-	$recipient = ""; // PLEASE SET YOUR EMAIL ADDRESS
-	
+	$recipient = "kiki@redeor.com"; // PLEASE SET YOUR EMAIL ADDRESS
+
 	// Check $recipient
 	if($recipient === '') {
 		returnAndExitAjaxResponse(
@@ -47,7 +47,7 @@
 	$headers .= 'X-Mailer: PHP/' . phpversion();
 
 	// Subject
-	$subject = "New email from contact form";
+	$subject = "Message from Redeor Media";
 
 	// Build Message
 	$email_content = "First Name: $fname\n";
